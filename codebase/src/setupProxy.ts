@@ -1,0 +1,16 @@
+// src/setupProxy.js
+
+import { createProxyMiddleware } from 'http-proxy-middleware';
+
+module.exports = function(app:any) {
+  app.use(
+    '/api',
+    createProxyMiddleware({
+      target: 'https://gitinspired-api.amalitech-dev.net',
+      changeOrigin: true,
+      secure: false,
+    })
+  );
+};
+
+

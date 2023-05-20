@@ -1,0 +1,25 @@
+#version: '3'
+
+#services:
+ # gitinspired-web:
+  #  image: assignmentsubmission-frontend
+   # container_name: assignmentsubmission-frontend
+    #build :
+     # context: .
+      #dockerfile: Dockerfile
+   # ports:
+    #  - '5001:3000'
+    #restart: on-failure
+version: '3'
+services:
+  gitinspired-web:
+    image: assignmentsubmission-frontend
+    container_name: assignmentsubmission-frontend
+    build :
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    volumes:
+     - ./app:/usr/src/app/modules
+    restart: on-failure

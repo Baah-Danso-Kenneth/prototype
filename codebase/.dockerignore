@@ -1,0 +1,12 @@
+
+Dockerfile
+docker-compose.yml
+.editorconfig
+sonar-project.properties
+.git
+.github
+build/
+CHANGELOG.md
+build
+node_modules
+.husky

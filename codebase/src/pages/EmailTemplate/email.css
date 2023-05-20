@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@700&family=Poppins:wght@500;700&display=swap");
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+
+}
+body{
+	background-color: #fff;
+}
+
+.email_container{
+	height:160vh;
+	background-color:'#b1b1b1';
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+
+.email_content{
+	max-width:1000px;
+	padding-bottom:5em;
+	margin:0 auto;
+	position:relative;
+	top:3.5rem;
+	height:auto;
+}
+
+.email_header{
+	background-color:rgb(39, 43, 50);
+    height:20vh;
+}
+
+.email_logo{
+	position:relative;
+	left:20rem;
+	top:1.5rem;}
+
+
+.vetor_icon{
+  position:relative;
+  top:15px;
+  left:8.5px;
+}
+
+.email_profile{
+	background-color: #fff;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+	height: 115vh;
+}
+.email_vector_background{
+	background-color:white;
+	width:65px;
+	height:70px;
+	margin-left:5rem;
+}
+
+.logo_icon{
+	position:relative;
+    top:-4rem;
+    left:9.5rem;
+}
+
+.it_icon{
+	position:relative;
+    top:-3rem;
+    left:10rem;
+}
+
+.lady_img{
+	object-fit:contain;
+	position:relative;
+	left:13rem;
+	top:3rem;
+}
+
+.email_text_information{
+	max-width:500px;
+	margin:0 auto;
+	margin-top:4rem;
+}
+.email_button{
+	position:relative;
+	top:1rem;
+	left:18rem;
+	padding: 8px 150px 10px;
+	border-radius:5px;
+	font-size: 16px;
+	color: white;
+	border: none;
+	background-color:#1E8DFF;
+}
+
+.email_h5{
+	font-size:18px;
+}
+
+
+p{
+	font-weight:200;
+    font-size:15px;
+
+}
+
+ul{
+	margin-left:25px;
+}
